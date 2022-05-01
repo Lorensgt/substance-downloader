@@ -52,7 +52,7 @@ print(messages_text["intro"])
 
 user = input(messages_text["user_log_text"])
 password = input(messages_text["pass_log_text"])
-index = input(messages_text["pass_index_text"])
+index = int(input(messages_text["pass_index_text"]))
 
 run = True
 s = requests.Session()
